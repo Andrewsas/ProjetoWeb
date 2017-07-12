@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Moveis</title>
+	<link rel="stylesheet" type="text/css" href="css/moveis.css">
+	<script language="JavaScript" type="text/javascript">
+		window.onresize = AjustarIFrame;
+		function AjustarIFrame()
+	   	{
+		    //Identifica navegador
+		    var TamanhoTopo;
+		    TamanhoTopo = 113;
+
+		    if (navigator.appName.indexOf("Microsoft") != -1)
+		    {
+		 	   document.getElementById('meuiframe').height = document.documentElement.clientHeight - TamanhoTopo;
+		    }
+		    else
+		    {
+		    	document.getElementById('meuiframe').height = window.innerHeight - TamanhoTopo;
+		    }
+	   	}
+	</script> 
+</head>
+<body onload="JavaScript:AjustarIFrame();">
+	
+	<aside>
+		<iframe id="meuiframe" src="filtro.html" scrolling="no" frameborder="0"></iframe>
+	</aside>
+	
+	<section>
+		<ul>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/banco_elk_laranja_2.jpg">
+					<p>Banco Elk - Laranja R$ 299,00</p>
+				</li>
+			</a>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/banco_orla_azul_turquesa_2.jpg">
+					<p>Banco Orla - Turquesa R$ 499,00</p>
+				</li>
+			</a>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/balanc_o_infantil_bola_azul_1.jpg">
+					<p>Balanço Infantil Bola Médio Azul R$ 99,00</p>
+				</li>
+			</a>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/banco_gabarito_80cm_branco_thumb.jpg">
+					<p>Banco Gabarito 80cm Branco R$ 249,00</p>
+				</li>
+			</a>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/banco_gabarito_130cm_cinza_thumb.jpg">
+					<p>Banco Gabarito 130cm Cinza R$ 299,00</p>
+				</li>
+			</a>
+			<a href="pagamento.html">
+				<li>
+					<img src="imagens/banco_ue_caqui_thumb.jpg">
+					<p>Banco Ué Cáqui R$ 499,00</p>
+				</li>
+			</a>
+		</ul>
+	</section>
+</body>
+</html>

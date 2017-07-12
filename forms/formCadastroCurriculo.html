@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trabalhe com Nosco</title>
+	<link rel="stylesheet" type="text/css" href="../css/formulario.css">
+	<style type="text/css">
+		html,body{
+			margin: auto;
+			padding: 10px;
+
+		}
+	</style>
+	<script src="js/validaCurriculo.js"></script>
+</head>
+<body>
+	<h1>Faça parte da Família OPPA!</h1>
+	<p>Conheça nossas vagas disponíveis e envie o seu currículo agora mesmo para a OPPA! Seu currículo ficará registrado em nossa base de dados e será avaliado por nossos recrutadores. Se você se identifica com a OPPA e quer fazer parte da nossa equipe, confira as nossas vagas agora mesmo!</p>
+	<br>
+	<div class="trabalhe">
+		<table class="recuo">
+			<h2>Informe seus dados:</h2>
+			<br>
+			<form method="post" action="../actions/cadastraCurriculo.php" novalidate onsubmit="return validaCurriculo()"> 
+				<tr>
+					<td>
+						<label>Nome*</label><br>
+						<input type="text" size="50" id="txtNome" name="txtNome" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Email*</label><br>
+						<input type="email" size="50" id="txtEmail" name="txtEmail" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Por gostaria de Trabalhar conosco ?*</label><br>
+						<textarea cols="51" rows="5" id="txtDescricao" name="txtDescricao" required></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Anexo curriculo*</label><br>
+						<input type="file" id="txtFile" name="arquivo" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Enviar" class="submit">
+					</td>
+				</tr>
+			</form>
+		</table>
+	</div> 
+</body>
+</html>

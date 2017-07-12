@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*{	
+	margin: 0px;
+	padding: 0px;
+	font-family:'Lato','Arial', sans-serif;
+	list-style-type:none;
+}
+
+html body{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+header{
+	width: 100%;
+}
+
+section{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+	background-color: #F8F8FF;	
+}
+
+footer{
+	display: block;
+	width: 100%;
+	height: auto !important;
+	clear: both;
+	bottom: 0 !important;
+	padding-bottom: 5px;
+}
+
+iframe{
+	margin: auto;
+	
+}
+
+/* LINKS */
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #3399ff;
+}
+
+header nav{
+	display: inline-block;
+	list-style: none;
+}
+
+hr{
+	border: 1px solid #DCDCDC;
+}
+
+header ul{
+	text-align: left;
+	border: none;
+}
+
+header li{
+	font-size: 10pt;
+	height: 20px;
+	border: none;
+}
+
+div.rodape{
+	display: block;
+	position:static;
+}
+
+/*PESQUISA*/
+form.pesquisa{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+input.search{
+	margin-top: 10px;
+	width: 25%;
+	height: 25px;
+	border: 1px solid #696969;
+	border-radius:5px;
+}
+
+input.btn{
+	text-align: center;
+	width: 80px;
+	height: 25px;
+	border: 1px solid #777;
+	border-radius: 10px;
+	outline: none;
+}
+
+input.btn:hover{
+	border: 1px solid #3399ff;
+}
+
+/*Configuração do menu categorias*/
+.menucategorias{
+	list-style-type:none;
+}
+.menucategorias > li{	
+	display: inline-block;
+	height: 25px;
+	padding-top: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+}	
+
+.menucategorias li ul{
+	position:absolute;
+	background-color:#DCDCDC;
+	list-style:none;
+	display:none;
+	width:200px;
+	padding: 10px;
+	box-shadow: 3px 3px 4px #888888;
+	margin-top: 7px;
+	font-size: 10pt;
+}
+
+.menucategorias li ul li{
+
+	margin-top: 10px;
+}
+
+.menucategorias li:hover ul{
+	display:block;
+}
+
+img.logo{
+	margin-bottom:-5px;
+	margin-right: 20px;
+}
+
+.carrinho{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: -20px;
+}
+
+li.login{
+	margin-left: 0px;
+	padding-left: 0px;
+	color: red;
+}

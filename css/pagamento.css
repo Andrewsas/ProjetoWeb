@@ -1,0 +1,66 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12pt;
+}
+
+figure{
+	float: left;
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+input{
+	height: 30px;
+}
+
+input.qtd{
+	width: 60px;
+}
+
+input.btn{
+	width: 200px;
+	color: white;
+	background-color: #6CA6CD;
+	border: none;
+}
+
+div.pagamento{
+	display: block;
+}
+
+p{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+table{
+	width: 400px;
+	border: 1px solid #ccc;
+}
+
+th{
+	text-align: left;
+	height: 30px;
+}
+
+td{
+	height: 40px;
+	border-top: .1px solid #ccc;
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+
+div#modal{
+	position: absolute;
+	background-color: #f1f1f1;
+	top: 50% - 150px;
+	left: 50% - 300px;
+	width: 600px;
+	height: 300px;
+	box-shadow: 3px 3px 4px #888888;
+}

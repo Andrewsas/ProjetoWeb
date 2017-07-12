@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<script type="text/javascript">
+		function slide1()
+		{
+			document.getElementById('id').src="imagens/image_1.jpg";
+			setTimeout("slide2()", 5000);
+			document.getElementById('aId').href="moveis.html";
+		}
+		function slide2()
+		{
+			document.getElementById('id').src="imagens/slider_desk_7.jpg";
+			setTimeout("slide3()", 5000);
+			document.getElementById('aId').href="moveis.html";
+		}
+		function slide3()
+		{
+			document.getElementById('id').src="imagens/01_Slider_Home_01.jpg";
+			setTimeout("slide1()", 5000);
+			document.getElementById('aId').href="moveis.html";
+		}
+	</script>
+</head>
+<body onload="slide1();">
+	<figure>
+		<a id="aId" target="Tprincipal"><img id="id"></a>
+	</figure>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contato</title>
+	<script type="text/javascript" src="js/validaMSG.js"></script>
+	<style type="text/css">
+		body{
+			margin: auto;
+			width: auto;
+			height: auto;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../css/formulario.css">
+</head>
+<body>
+	<table class="recuo">
+		<form method="post" action="../actions/cadastraMensagem.php" novalidate onsubmit="return validaMSG()">
+			<br>
+			<h2>Contato</h2>
+			<tr>
+				<td>
+					<label for="txtNome">Nome* </label><br>
+					<input type="text" size="50" required name="txtNome" id="txtNome" >
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="txtEmail">Email* </label><br>
+					<input type="email" size="50" name="txtEmail" id="txtEmail" required >
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="txtDescricao">Critica | Sugestão* </label><br>
+					<textarea cols="51" rows="5" required placeholder="Descreva aqui ..." id="txtDescricao" name="txtDescricao"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Enviar" class="submit"></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

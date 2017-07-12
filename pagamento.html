@@ -1,0 +1,74 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/pagamento.css">
+
+	<script type="text/javascript">
+		function exibemodal(){
+	var modal= document.getElementById('modal');
+	modal.showModal();
+	/*if(modal.style.display == 'none')
+	{
+		modal.style.display='block';
+	}
+	else{
+		modal.style.display='none';
+	}*/
+}
+	</script>
+
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="imagens/banco_gabarito_80cm_branco_1.jpg">
+		</figure>
+		<div class="pagamento">
+			<br>
+			<br>
+			<p>de R$ 499,00</p>	
+			<p>por R$ 249,00 a vista</p>
+			<p>ou até 6x42,74 </p>
+			<br>
+			<a href="#"><p>ver opções de parcelamento</p></a>
+			<form method="post" action="" onsubmit="exibemodal()">
+				<input type="number" value="1" class="qtd">
+				<input type="submit" value="Adicionar ao Carrinho" class="btn">
+			</form>
+		</div>
+	</header>
+	<section>
+		<br>
+		<p>Prático e versátil, o Banco Gabarito 80cm Branco pode ser utilizado em salas de estar e quartos. Além de assento, possui um nicho vazado que pode ser usado para armazenar objetos. Sua funcionalidade permite ainda que ele seja utilizado como criado-mudo ou banco pé de cama. De fácil montagem, possui estrutura em MDF e base em pinus.</p>
+		<table>
+			<tr>
+				<th colspan="4">ESPECIFICAÇÕES TECNICA</th>
+			</tr>
+			<tr>
+				<td class="negrito">Altura</td>
+				<td>60cm</td>
+				<td class="negrito">Garantia</td>
+				<td>90 dias</td>
+			</tr>
+			<tr>
+				<td class="negrito">Largura</td>
+				<td>80cm</td>
+				<td class="negrito">Montado</td>
+				<td>Não</td>
+			</tr>
+			<tr>
+				<td class="negrito">Profundidade</td>
+				<td>40cm</td>
+				<td class="negrito">Cor</td>
+				<td>Branco</td>
+			</tr>
+		</table>
+	</section>
+	    <div id="modal" class="esconder">
+        <p>aljndlanldnalksdnlkandslknalkdlkandlknalksdnlkasnlkdnalksndlkasnlkdn</p>
+        <button id="close" onclick="exibemodal()" class="btn">Close</button>
+    </div>
+
+</body>
+</html>

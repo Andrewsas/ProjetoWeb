@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 10pt;
+}
+
+html, body{
+	width: 100%;
+	height:auto;
+}
+
+aside{
+	display: block;
+	float: left;
+	height: auto;
+}
+
+iframe{
+	height: 100%;
+}
+
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	display: table-cell;
+	padding: 10px;
+}
+
+p{
+	margin-left: 40px;
+}
